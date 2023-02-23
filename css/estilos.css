@@ -18,7 +18,6 @@ background-color: white;
 }
 
 .divmenu {
-    margin-left: 14cm;
     margin-top: 2cm;
 }
 ul{
@@ -33,7 +32,6 @@ li a {
     padding: 10px 20px;
     font-family: 'Noto Sans Adlam Unjoined', sans-serif;
     color: orangered;
-    display: inline-block;
     text-decoration: none;
     font-size: 1.5rem;
 
@@ -110,13 +108,15 @@ footer{
     background-color: aqua;   
 }
 
-
+.texto_inicio{
+    overflow: hidden;
+}
 
 .contenedorredes
 {
     margin-left: 25vh;
    margin-bottom: 77vh;
-
+   overflow: hidden;
 }
 .contactanos{
     margin-left: 1cm;
@@ -124,11 +124,16 @@ footer{
     margin-top: 1cm;
 }
 
+
 .contenedorcontacto {
 
     display: flex;
     flex-direction: column;
     margin-left: 1cm;
+}
+
+.div_mapa{
+    overflow: hidden;
 }
 
 .diviconos{
