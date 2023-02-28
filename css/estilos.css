@@ -8,42 +8,19 @@ html{
     font-size: 62.5%;
 
 }
-header{
-background-color: white;
+.navbar-nav{
+    font-size: 2rem;
+    padding: 1cm;
 }
-
 
 .contenedor{
     display: flex;  
 }
 
-.divmenu {
-    margin-top: 2cm;
-}
-ul{
-    list-style: none;
-}
 
-li{
-    display: inline-block;
-}
-
-li a {
-    padding: 10px 20px;
-    font-family: 'Noto Sans Adlam Unjoined', sans-serif;
-    color: orangered;
-    text-decoration: none;
-    font-size: 1.5rem;
-
-}
-
-a:hover{
-    color: aqua;
-}
-.tamañodelogo{
+.tamañologo{
     width: 6cm;
 }
-
 h1{
     text-align: center;
     font-size: xx-large;
@@ -66,9 +43,7 @@ h1{
 .contenedor-footer{
     color: orangered;
     font-family: 'Noto Sans Adlam Unjoined', sans-serif;
-    font-size: 2rem;
-    display: flex;
-    align-items: center;
+    font-size: 2rem
 }
    
 
@@ -79,11 +54,8 @@ footer{
     border-top: solid;
 }
 
-#colordetexto{
-    color: white;
-    font-family: 'Noto Sans Adlam Unjoined', sans-serif;
-    font-size: large;
-}
+
+
 
 #colordetitulo {
     color: white;
@@ -100,6 +72,9 @@ footer{
     background-position: center;
     padding:20%;
     margin:0;
+    color: white;
+    font-family: 'Noto Sans Adlam Unjoined', sans-serif;
+    font-size: large;
 }
 
 .fondobuscador{
@@ -108,16 +83,7 @@ footer{
     background-color: aqua;   
 }
 
-.texto_inicio{
-    overflow: hidden;
-}
 
-.contenedorredes
-{
-    margin-left: 25vh;
-   margin-bottom: 77vh;
-   overflow: hidden;
-}
 .contactanos{
     margin-left: 1cm;
     margin-bottom: 1cm;
@@ -130,11 +96,9 @@ footer{
     display: flex;
     flex-direction: column;
     margin-left: 1cm;
+    
 }
 
-.div_mapa{
-    overflow: hidden;
-}
 
 .diviconos{
     padding-bottom: 1cm;
